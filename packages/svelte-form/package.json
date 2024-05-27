@@ -49,7 +49,7 @@
     "svelte": "^5.0.0-next.138",
     "svelte-check": "^3.6.0",
     "tslib": "^2.4.1",
-    "typescript": "^5.0.0",
+    "typescript": "^5.4.2",
     "vite": "^5.0.10",
     "vitest": "^1.2.0"
   },
