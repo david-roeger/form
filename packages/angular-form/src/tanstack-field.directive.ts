@@ -14,7 +14,7 @@ import {
   type FieldMeta,
   type FieldOptions,
   type FieldValidators,
-  FormApi,
+  type FormApi,
   type NoInfer as NoInferHack,
   type Validator,
 } from '@tanstack/form-core'
