@@ -15,6 +15,8 @@ $ yarn add @tanstack/angular-form
 $ yarn add @tanstack/solid-form
 # or
 $ pnpm add @tanstack/lit-form
+# or
+$ pnpm add @tanstack/svelte-form
 ```
 
 > Depending on your environment, you might need to add polyfills. If you want to support older browsers, you need to transpile the library from `node_modules` yourselves.

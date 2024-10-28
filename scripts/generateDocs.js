@@ -41,6 +41,13 @@ const packages = [
     exclude: ['packages/form-core/**/*'],
   },
   {
+    name: 'svelte-form',
+    entryPoints: [resolve(__dirname, '../packages/svelte-form/src/index.ts')],
+    tsconfig: resolve(__dirname, '../packages/svelte-form/tsconfig.docs.json'),
+    outputDir: resolve(__dirname, '../docs/framework/svelte/reference'),
+    exclude: ['packages/form-core/**/*'],
+  },
+  {
     name: 'vue-form',
     entryPoints: [resolve(__dirname, '../packages/vue-form/src/index.ts')],
     tsconfig: resolve(__dirname, '../packages/vue-form/tsconfig.docs.json'),

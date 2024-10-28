@@ -71,6 +71,15 @@
               "to": "framework/lit/quick-start"
             }
           ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "Quick Start",
+              "to": "framework/svelte/quick-start"
+            }
+          ]
         }
       ]
     },
@@ -183,6 +192,31 @@
             {
               "label": "Linked Fields",
               "to": "framework/solid/guides/linked-fields"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "Basic Concepts",
+              "to": "framework/vue/guides/basic-concepts"
+            },
+            {
+              "label": "Form Validation",
+              "to": "framework/vue/guides/validation"
+            },
+            {
+              "label": "Async Initial Values",
+              "to": "framework/vue/guides/async-initial-values"
+            },
+            {
+              "label": "Arrays",
+              "to": "framework/vue/guides/arrays"
+            },
+            {
+              "label": "Linked Fields",
+              "to": "framework/vue/guides/linked-fields"
             }
           ]
         }
@@ -401,6 +435,35 @@
               "to": "framework/angular/reference/functions/injectstore"
             }
           ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "Svelte Reference",
+              "to": "framework/svelte/reference/index"
+            },
+            {
+              "label": "Functions / Field",
+              "to": "framework/svelte/reference/functions/field"
+            },
+            {
+              "label": "Functions / useField",
+              "to": "framework/svelte/reference/functions/usefield"
+            },
+            {
+              "label": "Functions / useForm",
+              "to": "framework/svelte/reference/functions/useform"
+            },
+            {
+              "label": "Types / FieldComponent",
+              "to": "framework/svelte/reference/type-aliases/fieldcomponent"
+            },
+            {
+              "label": "Types / UseField",
+              "to": "framework/svelte/reference/type-aliases/usefield"
+            }
+          ]
         }
       ]
     },
@@ -538,6 +601,31 @@
             {
               "label": "UI Libraries",
               "to": "framework/lit/examples/ui-libraries"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "Simple",
+              "to": "framework/svelte/examples/simple"
+            },
+            {
+              "label": "Arrays",
+              "to": "framework/svelte/examples/array"
+            },
+            {
+              "label": "Yup",
+              "to": "framework/svelte/examples/yup"
+            },
+            {
+              "label": "Zod",
+              "to": "framework/svelte/examples/zod"
+            },
+            {
+              "label": "Valibot",
+              "to": "framework/svelte/examples/valibot"
             }
           ]
         }

@@ -44,6 +44,10 @@ await publish({
       name: '@tanstack/angular-form',
       packageDir: 'packages/angular-form',
     },
+    {
+      name: '@tanstack/svelte-form',
+      packageDir: 'packages/svelte-form',
+    },
   ],
   branchConfigs: {
     main: {
