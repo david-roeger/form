@@ -41,13 +41,15 @@
     "src"
   ],
   "dependencies": {
-    "@tanstack/form-core": "workspace:*"
+    "@tanstack/form-core": "workspace:*",
+    "@tanstack/svelte-store": "^0.5.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
     "@sveltejs/package": "^2.3.7",
     "@sveltejs/vite-plugin-svelte": "^4.0.0",
     "@testing-library/svelte": "^5.2.4",
+    "@types/eslint__js": "^8.42.3",
     "eslint-plugin-svelte": "^2.46.0",
     "globals": "^15.11.0",
     "svelte": "^5.1.3",
